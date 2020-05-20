@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/linearLayoutVertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+
+        >
+        <TextView
+            android:id="@+id/textViewInputNumbers"
+            style="@style/FontTheme30InputNumbers"
+            android:text="@string/textViewInputNumbers"
+            android:layout_weight="6"/>
+        <LinearLayout
+            android:id="@+id/linearLayoutVerticaFunctions"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            >
+            <LinearLayout
+                android:id="@+id/rowE1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/textViewButtonMC"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonMC" />
+                <Button
+                    android:id="@+id/textViewButtonMR"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonMR" />
+                <Button
+                    android:id="@+id/textViewButtonMPlus"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonMPlus"/>
+                <Button
+                    android:id="@+id/textViewButtonMMinus"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonMMinus"/>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/rowE2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/textViewButtonC"
+                    style="@style/FontTheme30_Orange"
+                    android:text="@string/textViewButtonC" />
+                <Button
+                    android:id="@+id/textViewButtonSqrt"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonSqrt"/>
+                <Button
+                    android:id="@+id/textViewButton1SlashX"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton1SlashX" />
+                <Button
+                    android:id="@+id/textViewButtonPlusMinus"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButtonPlusMinus" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutVerticalNumbers"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="4">
+            <LinearLayout
+                android:id="@+id/row1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/textViewButton7"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton7" />
+                <Button
+                    android:id="@+id/textViewButton8"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton8" />
+                <Button
+                    android:id="@+id/textViewButton9"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton9" />
+                <Button
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonDivision"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonDivision" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/row2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/textViewButton4"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton4" />
+                <Button
+                    android:id="@+id/textViewButton5"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton5" />
+                <Button
+                    android:id="@+id/textViewButton6"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton6" />
+                <Button
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonMulti"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonMulti" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/row3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/textViewButton1"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton1" />
+                <Button
+                    android:id="@+id/textViewButton2"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton2" />
+                <Button
+                    android:id="@+id/textViewButton3"
+                    style="@style/FontTheme30"
+                    android:text="@string/textViewButton3" />
+                <Button
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonMinus"
+                    android:text="@string/textViewButtonMinus" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/row4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1" >
+                <Button
+                    android:id="@+id/textViewButton0"
+                    style="@style/FontTheme30"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButton0" />
+                <Button
+                    android:id="@+id/textViewButtonDot"
+                    style="@style/FontTheme30"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonDot" />
+                <Button
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonPlus"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonPlus" />
+                <Button
+                    style="@style/FontTheme30_Orange"
+                    android:id="@+id/textViewButtonEqual"
+                    android:layout_weight="1"
+                    android:text="@string/textViewButtonEqual" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">3.3.1</string>
+
+    <string name="textViewInputNumbers">0</string>
+
+    <string name="textViewButtonMC">MC</string>
+    <string name="textViewButtonMR">MR</string>
+    <string name="textViewButtonMPlus">M+</string>
+    <string name="textViewButtonMMinus">M-</string>
+
+    <string name="textViewButtonC">C</string>
+    <string name="textViewButtonPlusMinus">+/-</string>
+    <string name="textViewButton1SlashX">1/X</string>
+    <string name="textViewButtonSqrt">Sqrt</string>
+
+    <string name="textViewButtonCos">cos</string>
+    <string name="textViewButtonSin">sin</string>
+    <string name="textViewButtonTan">tan</string>
+    <string name="textViewButtonAtan">atan</string>
+
+    <string name="textViewFactorial">n!</string>
+    <string name="textViewLg">lg</string>
+    <string name="textViewLn">ln</string>
+    <string name="textViewRad">rad</string>
+
+    <string name="textViewButton1">1</string>
+    <string name="textViewButton2">2</string>
+    <string name="textViewButton3">3</string>
+    <string name="textViewButton4">4</string>
+    <string name="textViewButton5">5</string>
+    <string name="textViewButton6">6</string>
+    <string name="textViewButton7">7</string>
+    <string name="textViewButton8">8</string>
+    <string name="textViewButton9">9</string>
+    <string name="textViewButton0">0</string>
+    <string name="textViewButtonDot">.</string>
+    <string name="textViewButtonPlus">+</string>
+    <string name="textViewButtonEqual">=</string>
+    <string name="textViewButtonDivision">/</string>
+    <string name="textViewButtonMulti">*</string>
+    <string name="textViewButtonMinus">-</string>
+
+</resources>
